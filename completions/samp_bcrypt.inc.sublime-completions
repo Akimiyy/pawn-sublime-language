@@ -1,0 +1,12 @@
+{
+	"scope": "source.pawn - variable.other.pawn",
+	"completions":
+	[
+		"BCRYPT_HASH_LENGTH",
+		"BCRYPT_COST",
+		{"trigger": "bcrypt_hash", "contents": "bcrypt_hash(${1:playerid}, ${2:callback[]}, ${3:input[]}, ${4:cost}, ${5:args[]})"},
+		{"trigger": "bcrypt_verify", "contents": "bcrypt_verify(${1:playerid}, ${2:callback[]}, ${3:input[]}, ${4:hash[]}, ${5:args[]})"},
+		{"trigger": "bcrypt_get_hash", "contents": "bcrypt_get_hash(${1:dest[]}, ${2:size})"},
+		{"trigger": "bcrypt_set_thread_limit", "contents": "bcrypt_set_thread_limit(${1:value})"}
+	]
+}
